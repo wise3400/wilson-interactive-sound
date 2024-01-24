@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 232.0, 99.0, 1402.0, 761.0 ],
+		"rect" : [ -15.0, 144.0, 1170.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 676.0, 423.20968226909639, 269.0, 33.0 ],
+					"text" : "will receive a bang message and delay it for a period of time"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 87.0, 147.200000107288361, 150.0, 20.0 ],
+					"text" : "double click, then print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "newobj",
@@ -178,7 +201,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 589.682548820972443, 496.031753718852997, 24.0, 24.0 ]
+					"patching_rect" : [ 597.682548820972443, 470.031753718852997, 24.0, 24.0 ]
 				}
 
 			}
@@ -189,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 589.682548820972443, 449.20968226909639, 67.0, 22.0 ],
+					"patching_rect" : [ 597.682548820972443, 423.20968226909639, 67.0, 22.0 ],
 					"text" : "delay 1000"
 				}
 
@@ -202,7 +225,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 589.682548820972443, 402.380958616733551, 24.0, 24.0 ]
+					"patching_rect" : [ 597.682548820972443, 376.380958616733551, 24.0, 24.0 ]
 				}
 
 			}
