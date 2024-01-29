@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 462.0, 99.0, 970.0, 761.0 ],
+		"rect" : [ 255.0, 99.0, 970.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,41 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 86.5, 612.0, 150.0, 33.0 ],
+					"text" : "umenu storing and selecting items"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 792.0, 62.0, 150.0, 60.0 ],
+					"text" : "loadbang object produces a bang message whenever the patch is loaded"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 738.0, 552.0, 150.0, 20.0 ],
+					"text" : "\"itable\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-137",
 					"maxclass" : "comment",
@@ -448,7 +483,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 261.0, 400.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "turn this on to play the table"
 				}
 
@@ -486,7 +520,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 237.0, 552.0, 65.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"name" : "dada",
@@ -751,7 +784,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 603.0, 92.5, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "click to make a new table via drunk"
 				}
 

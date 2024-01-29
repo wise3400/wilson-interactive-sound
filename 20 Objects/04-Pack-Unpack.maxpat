@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 99.0, 1402.0, 761.0 ],
+		"rect" : [ 43.0, 505.0, 1402.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 226.144855678081512, 23.0, 395.0, 33.0 ],
+					"text" : "pack object allows you to assemble lists of up to 250 items by specifying the appropriate numbers of arguments"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-160",
 					"maxclass" : "message",
@@ -940,7 +952,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 181.0, 350.0, 139.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"text" : "pattern that we will use for forcing output"
 				}
 
