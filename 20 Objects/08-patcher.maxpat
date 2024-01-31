@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 138.0, 138.0, 1145.0, 742.0 ],
+		"rect" : [ 182.0, 134.0, 1145.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 602.0, 57.0, 150.0, 100.0 ],
+					"patching_rect" : [ 602.0, 57.0, 153.0, 100.0 ],
 					"text" : "patcher object containing another patch. Double click on \"p\" notemaker object. Will open another patcher window containing the \"guts\" of note making process"
 				}
 
