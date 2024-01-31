@@ -111,7 +111,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-132",
-					"items" : "<empty>",
+					"items" : "up",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -170,7 +170,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-124",
-					"items" : "<empty>",
+					"items" : [ "one", ",", "two", ",", "three" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
