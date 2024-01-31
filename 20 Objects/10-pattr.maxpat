@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 303.0, 307.0, 150.0, 33.0 ],
+					"text" : "double click for pattr window"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 530.0, 85.0, 150.0, 20.0 ],
+					"text" : "store a numbered preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"linecount" : 7,
 					"maxclass" : "comment",
@@ -301,18 +324,18 @@
 					"patching_rect" : [ 433.0, 552.0, 135.0, 22.0 ],
 					"restore" : 					{
 						"number" : [ 25 ],
-						"number[1]" : [ 47 ],
-						"number[2]" : [ 1.6 ],
-						"number[3]" : [ 0 ],
+						"number[1]" : [ 30 ],
+						"number[2]" : [ 9.0 ],
+						"number[3]" : [ 15 ],
 						"slider[1]" : [ 26 ],
 						"slider[2]" : [ 0 ],
 						"slider[3]" : [ 0 ],
 						"slider[4]" : [ 0 ],
 						"slider[5]" : [ 0 ],
 						"slider[6]" : [ 0 ],
-						"slider[7]" : [ 0 ],
+						"slider[7]" : [ 73 ],
 						"slider[8]" : [ 0 ],
-						"slider[9]" : [ 0 ]
+						"slider[9]" : [ 23 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -445,12 +468,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-39",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 631.0, 305.0, 150.0, 33.0 ],
-					"text" : "these messages do the storage for us"
+					"patching_rect" : [ 631.0, 305.0, 150.0, 60.0 ],
+					"text" : "these messages do the storage for us. writes external json file. read is recall saved presets"
 				}
 
 			}
@@ -641,7 +664,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 61.0, 357.0, 133.0, 22.0 ],
-					"restore" : [ 47 ],
+					"restore" : [ 30 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -686,7 +709,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 48.0, 71.0, 90.0, 22.0 ],
-					"restore" : [ 47 ],
+					"restore" : [ 30 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

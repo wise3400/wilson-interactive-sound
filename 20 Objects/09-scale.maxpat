@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 160.0, 1402.0, 761.0 ],
+		"rect" : [ 34.0, 160.0, 1402.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,39 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 201.0, 482.0, 150.0, 20.0 ],
+					"text" : "remove duplicates"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 298.0, 407.0, 78.0, 20.0 ],
+					"text" : "high output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 226.0, 373.0, 82.0, 20.0 ],
+					"text" : "low output"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-46",
 					"linecount" : 8,
