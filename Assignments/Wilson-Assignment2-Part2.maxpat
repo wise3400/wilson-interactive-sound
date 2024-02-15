@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 99.0, 1170.0, 763.0 ],
+		"rect" : [ 34.0, 99.0, 1402.0, 763.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -693,7 +693,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.0, 1043.0, 150.0, 24.0 ],
+					"patching_rect" : [ 1085.0, 673.0, 150.0, 24.0 ],
 					"text" : "ADSR"
 				}
 
@@ -1381,7 +1381,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 491.0, 617.0, 50.0, 22.0 ],
-					"text" : "55"
+					"text" : "60"
 				}
 
 			}
@@ -1621,7 +1621,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 94.5, 347.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "9"
 				}
 
 			}
