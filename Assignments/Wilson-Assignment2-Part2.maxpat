@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-121",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 158.0, 123.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -85,18 +97,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 729.0, 609.0, 58.0, 22.0 ],
 					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-133",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 419.0, 912.0, 150.0, 47.0 ],
-					"text" : "filter - produces lowpass, highpass, bandpass, and bandreject"
 				}
 
 			}
@@ -228,7 +228,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1100.0, 861.0, 150.0, 24.0 ],
+					"patching_rect" : [ 1100.0, 877.0, 150.0, 24.0 ],
 					"text" : "spectroscope"
 				}
 
@@ -285,7 +285,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 961.0, 820.0, 120.0, 80.0 ],
+					"patching_rect" : [ 966.0, 849.0, 120.0, 80.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 527.0, 529.685185185185219, 120.0, 80.0 ],
 					"sonohicolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -532,7 +532,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 241.0, 673.0, 100.0, 35.0 ],
+					"patching_rect" : [ 241.0, 673.0, 127.5, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 836.918142572045326, 509.185185185185219, 122.0, 35.0 ]
 				}
@@ -1273,10 +1273,10 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 440.5, 861.0, 50.5, 22.0 ],
-					"text" : "svf~"
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 440.5, 861.0, 42.0, 22.0 ],
+					"text" : "lores~"
 				}
 
 			}
@@ -1807,6 +1807,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"source" : [ "obj-121", 0 ]
 				}
 
 			}
