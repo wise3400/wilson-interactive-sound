@@ -84,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 154.0, 753.0, 139.0, 50.0 ],
+					"patching_rect" : [ 143.0, 858.0, 139.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 880.918142572045326, 696.0, 139.0, 50.0 ],
@@ -129,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.0, 876.0, 150.0, 47.0 ],
+					"patching_rect" : [ 173.0, 981.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 197.836285144090652, 638.685185185185219, 150.0, 47.0 ],
 					"text" : "scope",
@@ -146,7 +146,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 806.0, 150.0, 47.0 ],
+					"patching_rect" : [ 148.0, 911.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 517.0, 624.348900041094566, 150.0, 47.0 ],
 					"text" : "spectroscope",
@@ -163,7 +163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 861.0, 150.0, 47.0 ],
+					"patching_rect" : [ 158.0, 966.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 359.0, 624.348900041094566, 150.0, 47.0 ],
 					"text" : "sonogram",
@@ -280,7 +280,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.5, 757.0, 118.0, 28.0 ],
+					"patching_rect" : [ 43.5, 862.0, 118.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1160.0, 497.185185185185219, 85.0, 28.0 ],
 					"text" : "ADSR "
@@ -296,7 +296,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.5, 757.0, 118.0, 28.0 ],
+					"patching_rect" : [ 43.5, 862.0, 118.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1143.0, 648.185185185185219, 112.0, 28.0 ],
 					"text" : "resonance (q)"
@@ -312,7 +312,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.5, 742.0, 118.0, 28.0 ],
+					"patching_rect" : [ 28.5, 847.0, 118.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1143.0, 590.348900041094566, 86.0, 28.0 ],
 					"text" : "frequency "
@@ -327,7 +327,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 951.0, 150.0, 39.0 ],
+					"patching_rect" : [ 59.0, 1056.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 836.918142572045326, 650.185185185185219, 42.0, 39.0 ],
 					"text" : "GAIN"
@@ -342,7 +342,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 794.0, 150.0, 24.0 ],
+					"patching_rect" : [ 15.0, 899.0, 150.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 757.836285144090652, 568.685185185185219, 86.0, 24.0 ],
 					"text" : "SONGS"
@@ -357,7 +357,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 910.0, 150.0, 39.0 ],
+					"patching_rect" : [ 59.0, 1015.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 819.418142572045326, 462.0, 150.0, 39.0 ],
 					"text" : "oscillators "
@@ -372,7 +372,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 820.0, 150.0, 39.0 ],
+					"patching_rect" : [ 59.0, 925.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 657.336285144090652, 664.185185185185105, 132.0, 39.0 ],
 					"text" : "TURN ON SOUND"
@@ -386,7 +386,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.5, 873.0, 150.0, 24.0 ],
+					"patching_rect" : [ 52.5, 978.0, 150.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 745.836285144090652, 529.685185185185219, 78.0, 24.0 ],
 					"text" : "TOGGLE"
@@ -682,7 +682,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 938.0, 150.0, 24.0 ],
+					"patching_rect" : [ 205.0, 1043.0, 150.0, 24.0 ],
 					"text" : "ADSR"
 				}
 
@@ -1370,7 +1370,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 491.0, 617.0, 50.0, 22.0 ],
-					"text" : "71"
+					"text" : "69"
 				}
 
 			}
@@ -1610,7 +1610,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 94.5, 347.0, 50.0, 22.0 ],
-					"text" : "6"
+					"text" : "14"
 				}
 
 			}
