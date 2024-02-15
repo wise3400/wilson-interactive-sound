@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-41",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 651.0, 847.0, 182.0, 40.0 ],
+					"text" : "signal multiply implements an amplitude envelope"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-94",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -117,15 +132,15 @@
 					"presentation_rect" : [ 903.5, 650.185185185185219, 77.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-114", "slider", "float", 74.0 ]
+							"data" : [ 5, "obj-115", "slider", "float", 49.0, 5, "obj-114", "slider", "float", 89.0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-114", "slider", "float", 94.0 ]
+							"data" : [ 5, "obj-115", "slider", "float", 113.0, 5, "obj-114", "slider", "float", 127.0 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-114", "slider", "float", 47.0 ]
+							"data" : [ 5, "obj-115", "slider", "float", 0.0, 5, "obj-114", "slider", "float", 35.0 ]
 						}
  ]
 				}
@@ -1381,7 +1396,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 491.0, 617.0, 50.0, 22.0 ],
-					"text" : "60"
+					"text" : "65"
 				}
 
 			}
@@ -1621,7 +1636,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 94.5, 347.0, 50.0, 22.0 ],
-					"text" : "9"
+					"text" : "10"
 				}
 
 			}
