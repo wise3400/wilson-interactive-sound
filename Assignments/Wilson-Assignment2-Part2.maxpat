@@ -559,7 +559,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.836285144090652, 409.5, 292.163714855909348, 76.0 ],
+					"patching_rect" : [ 30.836285144090652, 951.0, 292.163714855909348, 76.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 197.836285144090652, 462.0, 994.163714855909348, 292.0 ],
 					"proportion" : 0.5,
@@ -1621,7 +1621,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 94.5, 347.0, 50.0, 22.0 ],
-					"text" : "8"
+					"text" : "5"
 				}
 
 			}
@@ -1694,7 +1694,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1084.0, 468.48148148148141, 269.0, 129.518518518518505 ],
+					"patching_rect" : [ 72.0, 937.481481481481296, 269.0, 129.518518518518505 ],
 					"pic" : "/Users/wilsonseet/Desktop/41586_2015_BF520008c_Figa_HTML.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 197.836285144090652, -19.074074074074019, 994.163714855909348, 478.671418263956298 ]
