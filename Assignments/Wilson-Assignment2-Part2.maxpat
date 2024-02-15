@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 99.0, 1402.0, 763.0 ],
+		"rect" : [ 34.0, 99.0, 1170.0, 763.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 419.0, 912.0, 150.0, 47.0 ],
-					"text" : "produces lowpass, highpass, bandpass, and bandreject"
+					"text" : "filter - produces lowpass, highpass, bandpass, and bandreject"
 				}
 
 			}
@@ -1381,7 +1381,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 491.0, 617.0, 50.0, 22.0 ],
-					"text" : "64"
+					"text" : "55"
 				}
 
 			}
@@ -1621,7 +1621,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 94.5, 347.0, 50.0, 22.0 ],
-					"text" : "5"
+					"text" : "1"
 				}
 
 			}
