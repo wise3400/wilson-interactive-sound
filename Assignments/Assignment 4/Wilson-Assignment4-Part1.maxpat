@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 25.0, 99.0, 1411.0, 761.0 ],
+		"rect" : [ 34.0, 99.0, 1411.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -120,7 +120,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 36.0, 439.5, 339.0, 116.0 ],
+					"patching_rect" : [ 25.0, 429.5, 339.0, 116.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 444.5, 339.0, 116.0 ],
 					"varname" : "bp.Compressor",
@@ -137,9 +137,9 @@
 								"filename" : "drumLoop.aif",
 								"filekind" : "audiofile",
 								"id" : "u856004616",
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+									"loop" : 0
 								}
 
 							}
@@ -207,7 +207,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 955.5, 359.0, 258.0, 146.0 ],
+					"patching_rect" : [ 1002.0, 343.0, 258.0, 146.0 ],
 					"prototypename" : "pixl",
 					"varname" : "solarizr",
 					"viewvisibility" : 1
@@ -280,7 +280,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 246.0, 574.5, 110.0, 54.0 ],
+					"patching_rect" : [ 293.0, 573.5, 110.0, 54.0 ],
 					"prototypename" : "pixl",
 					"varname" : "audio2vizzie",
 					"viewvisibility" : 1
@@ -437,7 +437,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 595.0, 700.0, 230.0, 208.0 ],
+					"patching_rect" : [ 596.0, 696.0, 230.0, 208.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 947.0, 241.0, 230.0, 208.0 ],
 					"prototypename" : "pixl",
@@ -540,6 +540,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -585,7 +594,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 1071.5, 942.0, 740.5, 942.0, 740.5, 689.0, 604.5, 689.0 ],
+					"midpoints" : [ 1071.5, 942.0, 740.5, 942.0, 740.5, 689.0, 605.5, 689.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -593,8 +602,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 255.5, 668.25, 357.5, 668.25 ],
-					"order" : 1,
+					"midpoints" : [ 302.5, 668.25, 357.5, 668.25 ],
+					"order" : 3,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -634,7 +643,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
-					"midpoints" : [ 346.5, 743.25, 181.961538461538453, 743.25 ],
+					"midpoints" : [ 393.5, 743.25, 181.961538461538453, 743.25 ],
 					"order" : 10,
 					"source" : [ "obj-34", 1 ]
 				}
@@ -643,8 +652,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 255.5, 656.75, 604.5, 656.75 ],
-					"order" : 0,
+					"midpoints" : [ 302.5, 656.75, 605.5, 656.75 ],
+					"order" : 2,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -694,6 +703,22 @@
 					"destination" : [ "obj-35", 1 ],
 					"order" : 9,
 					"source" : [ "obj-34", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 6 ],
+					"order" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 5 ],
+					"order" : 1,
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -805,6 +830,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-8", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"order" : 0,
 					"source" : [ "obj-8", 1 ]
@@ -822,7 +854,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 152.5, 460.25, 255.5, 460.25 ],
+					"midpoints" : [ 152.5, 460.25, 302.5, 460.25 ],
 					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
