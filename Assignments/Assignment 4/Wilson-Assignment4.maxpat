@@ -1193,7 +1193,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 899.794893503189087, 594.307729244232178, 249.0, 135.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ -4999 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 636.333346128463745, 282.666666507720947, 252.0, 135.0 ],
 					"quality" : "basic",
