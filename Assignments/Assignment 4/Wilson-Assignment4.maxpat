@@ -55,15 +55,15 @@
 					"bubble" : 1,
 					"bubbleside" : 0,
 					"id" : "obj-7",
-					"linecount" : 4,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 1120.0, 152.0, 79.0 ],
+					"patching_rect" : [ 56.0, 1120.0, 152.0, 133.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 1099.0, 628.0, 152.0, 79.0 ],
-					"text" : "put video in first, then turn on toggle for arduino\n\nChoose video in Max."
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 1063.0, 628.0, 235.0, 119.0 ],
+					"text" : "put video in first, then turn on toggle for arduino\n\nChoose video in Max.\n\nIt'll be better to use \"imove_samp\" sample video provided by Max"
 				}
 
 			}
@@ -126,15 +126,15 @@
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-46",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 847.0, 150.0, 66.0 ],
+					"patching_rect" : [ 62.0, 847.0, 150.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 141.0, 425.5, 150.0, 66.0 ],
-					"text" : "can adjust. sensor affects the attack & output. button: on/off for bypass",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 89.0, 437.5, 263.0, 52.0 ],
+					"text" : "can adjust. sensor affects the attack & output. button: on/off for bypass (hold for 1 sec)",
 					"textjustification" : 1
 				}
 
@@ -441,7 +441,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.0, 398.0, 89.0, 22.0 ],
-					"text" : "1 57 114 147"
+					"text" : "1 97 194 0"
 				}
 
 			}
@@ -453,7 +453,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 36.0, 346.0, 95.0, 22.0 ],
-					"text" : "\"1 57 114 147\""
+					"text" : "\"1 97 194 0\""
 				}
 
 			}
@@ -569,7 +569,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.0, 202.0, 50.0, 22.0 ],
-					"text" : "53"
+					"text" : "32"
 				}
 
 			}
@@ -1171,8 +1171,8 @@
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1,
-									"speed" : 0.58,
-									"pitchshift" : 0.055718475073314,
+									"speed" : 1.0,
+									"pitchshift" : 0.094819159335288,
 									"timestretch" : 0
 								}
 
@@ -1193,6 +1193,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 899.794893503189087, 594.307729244232178, 249.0, 135.0 ],
 					"pitchcorrection" : 0,
+					"pitchshiftcent" : [ -4078 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 636.333346128463745, 282.666666507720947, 252.0, 135.0 ],
 					"quality" : "basic",
