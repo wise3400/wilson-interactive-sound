@@ -126,15 +126,15 @@
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-46",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 847.0, 150.0, 79.0 ],
+					"patching_rect" : [ 62.0, 847.0, 150.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 89.0, 437.5, 263.0, 52.0 ],
-					"text" : "can adjust. sensor affects the attack & output. button: on/off for bypass (hold for 1 sec)",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 141.0, 425.5, 150.0, 66.0 ],
+					"text" : "can adjust. sensor affects the attack & output. button: on/off for bypass",
 					"textjustification" : 1
 				}
 
@@ -441,7 +441,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.0, 398.0, 89.0, 22.0 ],
-					"text" : "1 97 194 0"
+					"text" : "1 57 114 147"
 				}
 
 			}
@@ -453,7 +453,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 36.0, 346.0, 95.0, 22.0 ],
-					"text" : "\"1 97 194 0\""
+					"text" : "\"1 57 114 147\""
 				}
 
 			}
@@ -569,7 +569,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.0, 202.0, 50.0, 22.0 ],
-					"text" : "32"
+					"text" : "53"
 				}
 
 			}
@@ -1171,8 +1171,8 @@
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1,
-									"speed" : 1.0,
-									"pitchshift" : 0.094819159335288,
+									"speed" : 0.58,
+									"pitchshift" : 0.055718475073314,
 									"timestretch" : 0
 								}
 
@@ -1193,7 +1193,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 899.794893503189087, 594.307729244232178, 249.0, 135.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ -4078 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 636.333346128463745, 282.666666507720947, 252.0, 135.0 ],
 					"quality" : "basic",
