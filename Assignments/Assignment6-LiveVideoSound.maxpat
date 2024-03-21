@@ -40,15 +40,41 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "## VIZZIE video projector interface ##",
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-11",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "vz.projectr.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1184.0, 615.0, 168.0, 108.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1153.0, 384.0, 168.0, 108.0 ],
+					"prototypename" : "pixl",
+					"varname" : "projectr",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 0,
 					"fontface" : 1,
 					"id" : "obj-75",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 888.0, 48.0, 119.0 ],
+					"patching_rect" : [ 107.0, 888.0, 50.0, 106.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 472.5, 718.0, 142.0, 66.0 ],
@@ -518,7 +544,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 901.0, 49.0, 79.0 ],
+					"patching_rect" : [ 64.0, 901.0, 53.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 669.5, 718.0, 127.0, 52.0 ],
@@ -1733,6 +1759,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
+					"order" : 1,
+					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 0,
 					"source" : [ "obj-98", 0 ]
 				}
 
@@ -1759,6 +1794,14 @@
 			"obj-105::obj-89" : [ "moviename", "moviename", 0 ],
 			"obj-106::obj-20" : [ "letterbox_menu", "letterbox_menu", 0 ],
 			"obj-106::obj-37" : [ "aspect_menu", "aspect_menu", 0 ],
+			"obj-11::obj-12" : [ "Fullscreen", "Fullscreen", 0 ],
+			"obj-11::obj-16" : [ "Toggle display", "Toggle display", 0 ],
+			"obj-11::obj-1::obj-23" : [ "gswitch2[2]", "gswitch2", 0 ],
+			"obj-11::obj-2" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
+			"obj-11::obj-3" : [ "toggle", "toggle", 0 ],
+			"obj-11::obj-41" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
+			"obj-11::obj-50" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
+			"obj-11::obj-6" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-98::obj-104" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
 			"obj-98::obj-119" : [ "Brightness", "Brightness", 0 ],
 			"obj-98::obj-120" : [ "Brightness range", "Brightness range", 1 ],
@@ -1777,10 +1820,16 @@
 			"obj-98::obj-56::obj-23" : [ "gswitch2[3]", "gswitch2", 0 ],
 			"obj-98::obj-6" : [ "range[5]", "range", 0 ],
 			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-11::obj-2" : 				{
+					"parameter_longname" : "pictctrl[4]"
+				}
+,
+				"obj-11::obj-50" : 				{
+					"parameter_longname" : "pictctrl[3]"
 				}
 
 			}
@@ -1851,6 +1900,12 @@
 			}
 , 			{
 				"name" : "vz.playr.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.projectr.maxpat",
 				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
