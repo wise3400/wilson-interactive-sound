@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 99.0, 1383.0, 766.0 ],
+		"rect" : [ 35.0, 99.0, 1383.0, 766.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 888.0, 50.0, 106.0 ],
+					"patching_rect" : [ 107.0, 888.0, 53.0, 106.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 472.5, 718.0, 142.0, 66.0 ],
@@ -290,7 +290,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 849.5, 423.0, 208.0, 130.0 ],
+					"patching_rect" : [ 863.0, 403.5, 208.0, 130.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 522.500038266181946, 459.0, 223.0, 133.0 ],
 					"prototypename" : "pixl",
@@ -383,7 +383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1098.000038266181946, 631.5, 40.0, 22.0 ],
-					"text" : "* 500."
+					"text" : "* 250."
 				}
 
 			}
@@ -406,8 +406,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1021.500038266181946, 625.5, 47.0, 22.0 ],
-					"text" : "* 1000."
+					"patching_rect" : [ 1021.500038266181946, 625.5, 40.0, 22.0 ],
+					"text" : "* 750."
 				}
 
 			}
@@ -725,7 +725,7 @@
 					"patching_rect" : [ 137.0, 700.0, 128.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 695.0, 128.0, 128.0, 32.0 ],
-					"saturation" : 0.588235294117647
+					"saturation" : 0.988235294117647
 				}
 
 			}
@@ -1262,7 +1262,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 1 ],
-					"midpoints" : [ 259.5, 895.480769246816635, 731.250019133090973, 895.480769246816635, 731.250019133090973, 373.0, 890.5, 373.0 ],
+					"midpoints" : [ 259.5, 895.480769246816635, 731.250019133090973, 895.480769246816635, 731.250019133090973, 373.0, 904.0, 373.0 ],
 					"source" : [ "obj-100", 0 ]
 				}
 
