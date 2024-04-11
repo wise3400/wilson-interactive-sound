@@ -482,6 +482,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1143.5, 606.999998331069946, 18.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1042.0, 344.999998331069946, 18.0, 50.0 ],
 					"size" : 3,
 					"value" : 0
 				}
@@ -570,7 +572,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 741.166666388511658, 657.33333158493042, 150.0, 22.0 ]
+					"patching_rect" : [ 741.166666388511658, 657.33333158493042, 150.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1131.166666388511658, 307.33333158493042, 150.0, 22.0 ]
 				}
 
 			}
@@ -583,7 +587,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 932.5, 732.999998331069946, 237.0, 22.0 ]
+					"patching_rect" : [ 932.5, 732.999998331069946, 237.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1087.5, 358.999998331069946, 237.0, 22.0 ]
 				}
 
 			}
@@ -609,7 +615,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1178.5, 775.999998331069946, 188.0, 22.0 ]
+					"patching_rect" : [ 1178.5, 758.999998331069946, 188.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1122.5, 402.999998331069946, 188.0, 22.0 ]
 				}
 
 			}
@@ -939,7 +947,7 @@
 					"patching_rect" : [ 362.0, 417.0, 134.666669189929962, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 371.0, 178.0, 134.666669189929962, 22.0 ],
-					"text" : "main::temp_min 51.22"
+					"text" : "main::temp_min 59.67"
 				}
 
 			}
@@ -1022,7 +1030,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 519.533977627754211, 59.941748917102814, 153.666669756174088, 22.0 ],
-					"text" : "dictionary u533007023"
+					"text" : "dictionary u010001418"
 				}
 
 			}
@@ -1123,6 +1131,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
