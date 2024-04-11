@@ -31,3 +31,38 @@ maxApi.addHandler("greenland", () => {
         maxApi.outlet(JSONObj);
     });
 });
+
+maxApi.addHandler("singapore", () => {
+    weather.setCity('singapore');
+    weather.getAllWeather(function(err, JSONObj){
+        maxApi.outlet(JSONObj);
+    });
+});
+
+maxApi.addHandler("bangkok", () => {
+    weather.setCity('bangkok');
+    weather.getAllWeather(function(err, JSONObj){
+        maxApi.outlet(JSONObj);
+    });
+});
+
+maxApi.addHandler("tokyo", () => {
+    weather.setCity('tokyo');
+    weather.getAllWeather(function(err, JSONObj){
+        maxApi.outlet(JSONObj);
+    });
+});
+
+maxApi.addHandler("london", () => {
+    weather.setCity('london');
+    weather.getAllWeather(function(err, JSONObj){
+        maxApi.outlet(JSONObj);
+    });
+});
+
+maxApi.addHandler("paris", () => {
+    weather.setCity('paris');
+    weather.getAllWeather(function(err, JSONObj){
+        maxApi.outlet(JSONObj);
+    });
+});
