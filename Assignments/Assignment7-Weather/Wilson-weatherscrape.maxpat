@@ -169,44 +169,6 @@
 			}
 , 			{
 				"box" : 				{
-					"basictuning" : 440,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "social.aif",
-								"filename" : "social.aif",
-								"filekind" : "audiofile",
-								"id" : "u877006152",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-45",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 411.0, 829.0, 150.0, 30.0 ],
-					"pitchcorrection" : 0,
-					"presentation" : 1,
-					"presentation_rect" : [ 217.0, 543.0, 150.0, 30.0 ],
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -769,7 +731,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 908.0, 467.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "3"
 				}
 
 			}
@@ -947,7 +909,7 @@
 					"patching_rect" : [ 362.0, 417.0, 134.666669189929962, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 371.0, 178.0, 134.666669189929962, 22.0 ],
-					"text" : "main::temp_min 59.67"
+					"text" : "main::temp_max 64.15"
 				}
 
 			}
@@ -1030,7 +992,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 519.533977627754211, 59.941748917102814, 153.666669756174088, 22.0 ],
-					"text" : "dictionary u010001418"
+					"text" : "dictionary u084001210"
 				}
 
 			}
@@ -1131,8 +1093,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -1409,7 +1369,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"order" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
+					"order" : 0,
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1478,22 +1447,6 @@
 					"destination" : [ "obj-50", 0 ],
 					"order" : 2,
 					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"order" : 1,
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"order" : 0,
-					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -1821,12 +1774,6 @@
 				"name" : "snapshot_UI.maxpat",
 				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "social.aif",
-				"bootpath" : "C74:/packages/max-mxj/examples",
-				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
