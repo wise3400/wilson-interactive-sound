@@ -554,6 +554,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 14.0, 233.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 9.0, 14.0, 233.0, 47.0 ],
 					"text" : "Tutorial: https://www.youtube.com/watch?v=C8UvVGomEx4&ab_channel=NedRush"
 				}
 
